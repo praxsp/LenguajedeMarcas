@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<!DOCTYPE biblioteca> 
+<biblioteca> 
+    <ejemplar>
+        <TITULO>Harry</TITULO>
+        <AUTOR>JK</AUTOR>
+        <FECHA>10</FECHA>
+        <PAGINAS>123</PAGINAS>
+    </ejemplar>
+    <ejemplar>
+        <TITULO>LOLEL</TITULO>
+        <AUTOR>LOLO</AUTOR>
+        <FECHA>1234</FECHA>
+        <PAGINAS>123</PAGINAS>
+    </ejemplar>
+    <ejemplar>
+        <TITULO>SIRO</TITULO>
+        <AUTOR>SIRT</AUTOR>
+        <FECHA>1212</FECHA>
+        <PAGINAS>143</PAGINAS>
+    </ejemplar>
+</biblioteca> 
