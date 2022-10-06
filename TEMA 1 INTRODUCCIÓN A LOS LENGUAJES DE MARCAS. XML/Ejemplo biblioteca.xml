@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>  
+<?xml-stylesheet type="text/css" href="estilos.css"?>
 <!DOCTYPE biblioteca> 
+<!--ESTOY GUARDANDO INFO DE UNA BIBLIOTECA-->
 <biblioteca> 
     <ejemplar>
         <TITULO>Harry</TITULO>
