@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Cluster>
+     
+
+    
+     
+     <Nodo nombre="1" IP="190.168.1.2">
+        
+       <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+
+       <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+         
+        <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+       
+
+    </Nodo>
+    <Nodo nombre="12" IP="190.168.2.2">
+        
+       <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+
+       <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+         
+        <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+         
+         </Nodo>
+         <Nodo nombre="3" IP="190.168.3.2">
+        
+       <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+
+       <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+         
+        <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+       
+    </Nodo>
+    <Nodo nombre="4" IP="190.168.4.2">
+        
+       <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+
+       <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+         
+        <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+
+    </Nodo>
+       <Nodo nombre="5" IP="190.168.5.2">
+        
+       <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+
+       <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+         
+        <Maquina_Virtual>
+          <Nombre></Nombre>
+          <Sistema_Op></Sistema_Op>
+          <Interfaz>
+             <Ip></Ip>
+             <Mac></Mac>
+          </Interfaz>
+       
+       </Maquina_Virtual>
+    </Nodo>
+       
+       
+
+
+</Cluster>

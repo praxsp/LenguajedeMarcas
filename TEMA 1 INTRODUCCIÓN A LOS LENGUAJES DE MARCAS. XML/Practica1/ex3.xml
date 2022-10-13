@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Empresa>
+  <Edificio direccion="Chillsale">
+    <Planta numero="1">
+      <Superficie>4m2</Superficie>
+       <Empleados>
+          <Empleado1>
+             <Puesto>Gerente</Puesto>
+             <Datos>5343768z</Datos>
+             <Tlf>666789453</Tlf>
+        </Empleado1>
+        <Empleado2>
+             <Puesto>limpiador</Puesto>
+             <Datos>3245672f</Datos>
+             <Tlf>678543234</Tlf>
+        </Empleado2>
+        <Empleado3>
+             <Puesto>auxiliar</Puesto>
+             <Datos>4368913f</Datos>
+             <Tlf>867453231</Tlf>
+        </Empleado3>
+        <Empleado4>
+             <Puesto>becario</Puesto>
+             <Datos>4356789l</Datos>
+             <Tlf>697654321</Tlf>
+        </Empleado4>
+        <Empleado5>
+             <Puesto>ingeniero</Puesto>
+             <Datos>5674321g</Datos>
+             <Tlf>698654356</Tlf>
+        </Empleado5>
+       </Empleados>
+    </Planta>
+    <Planta numero="2">
+      <Superficie>4m2</Superficie>
+       <Empleados>
+          <Empleado1>
+             <Puesto>Gerente</Puesto>
+             <Datos>5343768z</Datos>
+             <Tlf>666789453</Tlf>
+        </Empleado1>
+        <Empleado2>
+             <Puesto>limpiador</Puesto>
+             <Datos>3245672f</Datos>
+             <Tlf>678543234</Tlf>
+        </Empleado2>
+        <Empleado3>
+             <Puesto>auxiliar</Puesto>
+             <Datos>4368913f</Datos>
+             <Tlf>867453231</Tlf>
+        </Empleado3>
+        <Empleado4>
+             <Puesto>becario</Puesto>
+             <Datos>4356789l</Datos>
+             <Tlf>697654321</Tlf>
+        </Empleado4>
+        <Empleado5>
+             <Puesto>ingeniero</Puesto>
+             <Datos>5674321g</Datos>
+             <Tlf>698654356</Tlf>
+        </Empleado5>
+       </Empleados>
+    </Planta>
+    <Planta numero="3">
+      <Superficie>4m2</Superficie>
+       <Empleados>
+          <Empleado1>
+             <Puesto>Gerente</Puesto>
+             <Datos>5343768z</Datos>
+             <Tlf>666789453</Tlf>
+        </Empleado1>
+        <Empleado2>
+             <Puesto>limpiador</Puesto>
+             <Datos>3245672f</Datos>
+             <Tlf>678543234</Tlf>
+        </Empleado2>
+        <Empleado3>
+             <Puesto>auxiliar</Puesto>
+             <Datos>4368913f</Datos>
+             <Tlf>867453231</Tlf>
+        </Empleado3>
+        <Empleado4>
+             <Puesto>becario</Puesto>
+             <Datos>4356789l</Datos>
+             <Tlf>697654321</Tlf>
+        </Empleado4>
+        <Empleado5>
+             <Puesto>ingeniero</Puesto>
+             <Datos>5674321g</Datos>
+             <Tlf>698654356</Tlf>
+        </Empleado5>
+       </Empleados>
+    </Planta>
+  
+  
+  
+  
+  
+  
+  
+  </Edificio>
+
+  <Edificio direccion="ConchinchinaLec">
+    <Planta numero="1">
+      <Superficie>4m2</Superficie>
+       <Empleados>
+          <Empleado1>
+             <Puesto>Gerente</Puesto>
+             <Datos>5343768z</Datos>
+             <Tlf>666789453</Tlf>
+        </Empleado1>
+        <Empleado2>
+             <Puesto>limpiador</Puesto>
+             <Datos>3245672f</Datos>
+             <Tlf>678543234</Tlf>
+        </Empleado2>
+        <Empleado3>
+             <Puesto>auxiliar</Puesto>
+             <Datos>4368913f</Datos>
+             <Tlf>867453231</Tlf>
+        </Empleado3>
+        <Empleado4>
+             <Puesto>becario</Puesto>
+             <Datos>4356789l</Datos>
+             <Tlf>697654321</Tlf>
+        </Empleado4>
+        <Empleado5>
+             <Puesto>ingeniero</Puesto>
+             <Datos>5674321g</Datos>
+             <Tlf>698654356</Tlf>
+        </Empleado5>
+       </Empleados>
+    </Planta>
+    <Planta numero="2">
+      <Superficie>4m2</Superficie>
+       <Empleados>
+          <Empleado1>
+             <Puesto>Gerente</Puesto>
+             <Datos>5343768z</Datos>
+             <Tlf>666789453</Tlf>
+        </Empleado1>
+        <Empleado2>
+             <Puesto>limpiador</Puesto>
+             <Datos>3245672f</Datos>
+             <Tlf>678543234</Tlf>
+        </Empleado2>
+        <Empleado3>
+             <Puesto>auxiliar</Puesto>
+             <Datos>4368913f</Datos>
+             <Tlf>867453231</Tlf>
+        </Empleado3>
+        <Empleado4>
+             <Puesto>becario</Puesto>
+             <Datos>4356789l</Datos>
+             <Tlf>697654321</Tlf>
+        </Empleado4>
+        <Empleado5>
+             <Puesto>ingeniero</Puesto>
+             <Datos>5674321g</Datos>
+             <Tlf>698654356</Tlf>
+        </Empleado5>
+       </Empleados>
+    </Planta>
+    <Planta numero="3">
+      <Superficie>4m2</Superficie>
+       <Empleados>
+          <Empleado1>
+             <Puesto>Gerente</Puesto>
+             <Datos>5343768z</Datos>
+             <Tlf>666789453</Tlf>
+        </Empleado1>
+        <Empleado2>
+             <Puesto>limpiador</Puesto>
+             <Datos>3245672f</Datos>
+             <Tlf>678543234</Tlf>
+        </Empleado2>
+        <Empleado3>
+             <Puesto>auxiliar</Puesto>
+             <Datos>4368913f</Datos>
+             <Tlf>867453231</Tlf>
+        </Empleado3>
+        <Empleado4>
+             <Puesto>becario</Puesto>
+             <Datos>4356789l</Datos>
+             <Tlf>697654321</Tlf>
+        </Empleado4>
+        <Empleado5>
+             <Puesto>ingeniero</Puesto>
+             <Datos>5674321g</Datos>
+             <Tlf>698654356</Tlf>
+        </Empleado5>
+       </Empleados>
+    </Planta>
+  
+  
+  
+  
+  
+  
+  
+  </Edificio>
+  <Edificio direccion="Downsite">
+    <Planta numero="1">
+      <Superficie>4m2</Superficie>
+       <Empleados>
+          <Empleado1>
+             <Puesto>Gerente</Puesto>
+             <Datos>5343768z</Datos>
+             <Tlf>666789453</Tlf>
+        </Empleado1>
+        <Empleado2>
+             <Puesto>limpiador</Puesto>
+             <Datos>3245672f</Datos>
+             <Tlf>678543234</Tlf>
+        </Empleado2>
+        <Empleado3>
+             <Puesto>auxiliar</Puesto>
+             <Datos>4368913f</Datos>
+             <Tlf>867453231</Tlf>
+        </Empleado3>
+        <Empleado4>
+             <Puesto>becario</Puesto>
+             <Datos>4356789l</Datos>
+             <Tlf>697654321</Tlf>
+        </Empleado4>
+        <Empleado5>
+             <Puesto>ingeniero</Puesto>
+             <Datos>5674321g</Datos>
+             <Tlf>698654356</Tlf>
+        </Empleado5>
+       </Empleados>
+    </Planta>
+    <Planta numero="2">
+      <Superficie>4m2</Superficie>
+       <Empleados>
+          <Empleado1>
+             <Puesto>Gerente</Puesto>
+             <Datos>5343768z</Datos>
+             <Tlf>666789453</Tlf>
+        </Empleado1>
+        <Empleado2>
+             <Puesto>limpiador</Puesto>
+             <Datos>3245672f</Datos>
+             <Tlf>678543234</Tlf>
+        </Empleado2>
+        <Empleado3>
+             <Puesto>auxiliar</Puesto>
+             <Datos>4368913f</Datos>
+             <Tlf>867453231</Tlf>
+        </Empleado3>
+        <Empleado4>
+             <Puesto>becario</Puesto>
+             <Datos>4356789l</Datos>
+             <Tlf>697654321</Tlf>
+        </Empleado4>
+        <Empleado5>
+             <Puesto>ingeniero</Puesto>
+             <Datos>5674321g</Datos>
+             <Tlf>698654356</Tlf>
+        </Empleado5>
+       </Empleados>
+    </Planta>
+    <Planta numero="3">
+      <Superficie>4m2</Superficie>
+       <Empleados>
+          <Empleado1>
+             <Puesto>Gerente</Puesto>
+             <Datos>5343768z</Datos>
+             <Tlf>666789453</Tlf>
+        </Empleado1>
+        <Empleado2>
+             <Puesto>limpiador</Puesto>
+             <Datos>3245672f</Datos>
+             <Tlf>678543234</Tlf>
+        </Empleado2>
+        <Empleado3>
+             <Puesto>auxiliar</Puesto>
+             <Datos>4368913f</Datos>
+             <Tlf>867453231</Tlf>
+        </Empleado3>
+        <Empleado4>
+             <Puesto>becario</Puesto>
+             <Datos>4356789l</Datos>
+             <Tlf>697654321</Tlf>
+        </Empleado4>
+        <Empleado5>
+             <Puesto>ingeniero</Puesto>
+             <Datos>5674321g</Datos>
+             <Tlf>698654356</Tlf>
+        </Empleado5>
+       </Empleados>
+    </Planta>
+  
+  
+  
+  
+  
+  
+  
+  </Edificio>
+
+
+
+
+
+
+
+
+
+
+</Empresa>

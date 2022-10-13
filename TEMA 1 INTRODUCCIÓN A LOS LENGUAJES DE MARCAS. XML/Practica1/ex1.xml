@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Torneo>  
+
+<Torneo>
+     
+<Nombre torneo=" Liga Master">
+    <Fecha_inicio>10-1-2023</Fecha_inicio>
+    <Fecha_fin>22-1-2023</Fecha_fin>
+       
+       <Partido id="1">
+        <Fecha>10-1-2023</Fecha>
+        <Jugador_1>
+            <nombre>Hugo</nombre>
+            <nacionalidad>España</nacionalidad>
+            <edad>20</edad>
+        </Jugador_1>
+        <Jugador_2>
+            <nombre>Agus</nombre>
+            <nacionalidad>Brasil</nacionalidad>
+            <edad>21</edad>
+        </Jugador_2>
+        <Resultado>6-5 6-2 6-0</Resultado>
+        </Partido>
+        
+        <Partido id="2">
+        <Fecha>10-1-2023</Fecha>
+        
+        <Jugador_3>
+            <nombre>Javi</nombre>
+            <nacionalidad>España</nacionalidad>
+            <edad>24</edad>
+        </Jugador_3>
+        <Jugador_4>
+            <nombre>Robert</nombre>
+            <nacionalidad>Portugal</nacionalidad>
+            <edad>19</edad>
+        </Jugador_4>
+        <Resultado>6-4 6-3 6-1</Resultado>
+        </Partido>
+       
+       <Partido id="3">
+        <Fecha>10-1-2023</Fecha>
+        <Jugador_5>
+            <nombre>Jose</nombre>
+            <nacionalidad>España</nacionalidad>
+            <edad>22</edad>
+        </Jugador_5>
+        <Jugador_6>
+            <nombre>Juan</nombre>
+            <nacionalidad>Brasil</nacionalidad>
+            <edad>26</edad>
+        </Jugador_6>
+        <Resultado>6-3 6-5 6-4</Resultado>
+        </Partido>
+
+        <Partido id="4">
+        <Fecha>10-2-2023</Fecha>
+        <Jugador_7>
+            <nombre>Juli</nombre>
+            <nacionalidad>España</nacionalidad>
+            <edad>2218</edad>
+        </Jugador_7>
+        <Jugador_8>
+            <nombre>Juanin</nombre>
+            <nacionalidad>España</nacionalidad>
+            <edad>22</edad>
+        </Jugador_8>
+        <Resultado>6-2 6-2 6-2</Resultado>
+        </Partido>
+
+        <Partido id="5">
+        <Fecha>10-2-2023</Fecha>
+        <Jugador_9>
+            <nombre>Joselu</nombre>
+            <nacionalidad>España</nacionalidad>
+            <edad>22</edad>
+        </Jugador_9>
+        <Jugador_10>
+            <nombre>Juanpe</nombre>
+            <nacionalidad>Espña</nacionalidad>
+            <edad>30</edad>
+        </Jugador_10>
+        <Resultado>6-4 6-4 6-4</Resultado>
+        </Partido>
+
+        <Partido id="6">
+        <Fecha>10-2-2023</Fecha>
+        <Jugador_11>
+            <nombre>Filip</nombre>
+            <nacionalidad>Portugal</nacionalidad>
+            <edad>18</edad>
+        </Jugador_11>
+        <Jugador_12>
+            <nombre>Alex</nombre>
+            <nacionalidad>Francia</nacionalidad>
+            <edad>26</edad>
+        </Jugador_12>
+        <Resultado>4-6 3-6 2-6</Resultado>
+        </Partido>
+
+    <Partido id="7">
+        <Fecha>10-3-2023</Fecha>
+        <Jugador_13>
+            <nombre>Josete</nombre>
+            <nacionalidad>España</nacionalidad>
+            <edad>28</edad>
+        </Jugador_13>
+        <Jugador_14>
+            <nombre>JuanLuis</nombre>
+            <nacionalidad>España</nacionalidad>
+            <edad>26</edad>
+        </Jugador_14>
+        <Resultado>6-3 6-5 6-7</Resultado>
+        </Partido>
+
+        <Partido id="8">
+        <Fecha>10-3-2023</Fecha>
+        <Jugador_15>
+            <nombre>Jose</nombre>
+            <nacionalidad>España</nacionalidad>
+            <edad>21</edad>
+        </Jugador_15>
+        <Jugador_16>
+            <nombre>Juan</nombre>
+            <nacionalidad>Brasil</nacionalidad>
+            <edad>28</edad>
+        </Jugador_16>
+        <Resultado>6-3 6-5 6-7</Resultado>
+        </Partido>
+       
+       <Partido id="9">
+        <Fecha>10-3-2023</Fecha>
+        <Jugador_17>
+            <nombre>Jose</nombre>
+            <nacionalidad>España</nacionalidad>
+            <edad>22</edad>
+        </Jugador_17>
+        <Jugador_18>
+            <nombre>Ale</nombre>
+            <nacionalidad>EspañaBrasil</nacionalidad>
+            <edad>29</edad>
+        </Jugador_18>
+        <Resultado>6-3 6-5 6-7</Resultado>
+        </Partido>
+
+       <Partido id="10">
+        <Fecha>10-3-2023</Fecha>
+        <Jugador_19>
+            <nombre>Jose</nombre>
+            <nacionalidad>España</nacionalidad>
+            <edad>22</edad>
+        </Jugador_19>
+        <Jugador_20>
+            <nombre>Juan</nombre>
+            <nacionalidad>Brasil</nacionalidad>
+            <edad>26</edad>
+        </Jugador_20>
+        <Resultado>6-3 6-5 6-7</Resultado>
+        </Partido>
+       
+       
+       </Nombre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Torneo>
