@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE favourites [
+ <!ELEMENT favourites (bookmark)>
+ <!ELEMENT bookmark (name, uri)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT uri (#PCDATA)>
+]>
+<bookmarks>
+ <bookmark>
+ <name>W3C</name>
+ <uri>http://www.w3.org/</uri>
+ </bookmark>
+ <bookmark>
+ <name>Web Hypertext Application Technology Working Group
+(WHATWG)</name>
+ <uri>http://www.whatwg.org/</uri>
+ </bookmark>
+</bookmarks>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmarks [
+ <!ELEMENT bookmarks (bookmark*)>
+ <!ELEMENT bookmark (name, uri)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT uri (#PCDATA)>
+]>
+<bookmarks>
+ <bookmark>
+ <name>W3C</name>
+ <uri>http://www.w3.org/</uri>
+ </bookmark>
+ <bookmark>
+ <name>Web Hypertext Application Technology Working Group
+(WHATWG)</name>
+ <uri>http://www.whatwg.org/</uri>
+ </bookmark>
+</bookmarks>
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE anniversaires [
+ <!ELEMENT anniversaires (anniversaire)>
+ <!ELEMENT anniversaire (date, fact)>
+]>
+<anniversaires>
+ <anniversaire>
+ <date>July 20th 1969</date>
+ <fact>Man reaches the moon.</fact>
+ </anniversaire>
+ <anniversaire>
+ <date>October 12th 1492</date>
+ <fact> Arrival of Columbus to America </fact>
+ </anniversaire>
+ <anniversaire>
+ <date>April 6th 1909</date>
+ <fact> Arrival of Robert Peary at the North Pole </fact>
+ </anniversaire>
+</anniversaires>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE anniversaires [
+ <!ELEMENT anniversaires (anniversaire*)>
+ <!ELEMENT anniversaire (date, fact)>
+ <!ELEMENT date (#PCDATA)>
+ <!ELEMENT fact (#PCDATA)>
+]>
+<anniversaires>
+ <anniversaire>
+ <date>July 20th 1969</date>
+ <fact>Man reaches the moon.</fact>
+ </anniversaire>
+ <anniversaire>
+ <date>October 12th 1492</date>
+ <fact> Arrival of Columbus to America </fact>
+ </anniversaire>
+ <anniversaire>
+ <date>April 6th 1909</date>
+ <fact> Arrival of Robert Peary at the North Pole </fact>
+ </anniversaire>
+</anniversaires>
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE airports [
+ <!ELEMENT airports (airport*)>
+ <!ELEMENT airport (name, closed)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT closed (#PCDATA)>
+]>
+<airports>
+ <airport>
+ <name>Berlín Schönefeld (SFX)</name>
+ </airport>
+ <airport>
+ <name>Berlín Tempelhof (THF)</name>
+ <closed />
+</airport>
+</airports>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE airports [
+ <!ELEMENT airports (airport*)>
+ <!ELEMENT airport (name, closed?)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT closed EMPTY>
+]>
+<airports>
+ <airport>
+ <name>Berlín Schönefeld (SFX)</name>
+ </airport>
+ <airport>
+ <name>Berlín Tempelhof (THF)</name>
+ <closed />
+</airport>
+</airports>
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flights [
+ <!ELEMENT flights (flight*)>
+ <!ELEMENT flight (source, target)>
+ <!ELEMENT source (#PCDATA)>
+ <!ELEMENT target (#PCDATA)>
+]>
+<flights>
+ <flight>
+ <source>Valencia (VLC)</source>
+ <target>Londres Heathrow (LHR)</target>
+ </flight>
+ <flight>
+ <target>Berlin Schönefeld (SFX)</target>
+ <source>Paris Charles from Gaulle (CDG)</source>
+ </flight>
+</flights>
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flights [
+ <!ELEMENT flights (flight*)>
+ <!ELEMENT flight (source|target)*>
+ <!ELEMENT source (#PCDATA)>
+ <!ELEMENT target (#PCDATA)>
+]>
+<flights>
+ <flight>
+ <source>Valencia (VLC)</source>
+ <target>Londres Heathrow (LHR)</target>
+ </flight>
+ <flight>
+ <target>Berlin Schönefeld (SFX)</target>
+ <source>Paris Charles from Gaulle (CDG)</source>
+ </flight>
+</flights> 
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE spanishKings [
+ <!ELEMENT spanishKings (king*, queen*)>
+ <!ELEMENT king (name, father, mother)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT father (#PCDATA)>
+ <!ELEMENT mother (#PCDATA)>
+]>
+<spanishKings>
+ <king>
+ <name>Felipe III</name>
+ <father>Felipe II</father>
+ <mother>Ana from Austria</mother>
+ </king>
+ <queen>
+ <name>Juana la Loca</name>
+ <father>Fernando el Católico</father>
+ <mother>Isabel la Católica</mother>
+ </queen>
+ <king>
+ <name>Carlos I</name>
+ <father>Felipe el Hermoso</father>
+ <mother>Juana la Loca</mother>
+ </king>
+</spanishKings>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE spanishKings [
+ <!ELEMENT spanishKings (king | queen)*>
+ <!ELEMENT king (name, father, mother)>
+ <!ELEMENT queen (name, father, mother)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT father (#PCDATA)>
+ <!ELEMENT mother (#PCDATA)>
+]>
+<spanishKings>
+ <king>
+ <name>Felipe III</name>
+ <father>Felipe II</father>
+ <mother>Ana from Austria</mother>
+ </king>
+ <queen>
+ <name>Juana la Loca</name>
+ <father>Fernando el Católico</father>
+ <mother>Isabel la Católica</mother>
+ </queen>
+ <king>
+ <name>Carlos I</name>
+ <father>Felipe el Hermoso</father>
+ <mother>Juana la Loca</mother>
+ </king>
+</spanishKings>
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE countries [
+ <!ELEMENT country (name, europeanUnion, nato)>
+ <!ELEMENT name EMPTY>
+ <!ELEMENT europeanUnion EMPTY>
+ <!ELEMENT nato EMPTY>
+]>
+<countries>
+ <country>
+ <name>Spain</name>
+ <europeanUnion/>
+ <nato />
+</country>
+ <country>
+ <name>Norwegian</name>
+ <nato />
+ </country>
+ <country>
+ <name>Austria</name>
+ <europeanUnion/>
+ </country>
+</countries>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE countries [
+ <!ELEMENT countries (country*)>
+ <!ELEMENT country (name, europeanUnion*, nato*)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT europeanUnion EMPTY>
+ <!ELEMENT nato EMPTY>
+]>
+<countries>
+ <country>
+ <name>Spain</name>
+ <europeanUnion/>
+ <nato />
+</country>
+ <country>
+ <name>Norwegian</name>
+ <nato />
+ </country>
+ <country>
+ <name>Austria</name>
+ <europeanUnion/>
+ </country>
+</countries>
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colors [
+ <!ELEMENT colors (color*)>
+ <!ELEMENT nameSvg (#PCDATA)>
+ <!ELEMENT rgb (#PCDATA)>
+ <!ELEMENT cmyk (#PCDATA)>
+]>
+<colors>
+ <color>
+ <nameSvg>Purple</nameSvg>
+ <code>
+ <rgb>#800080</rgb>
+ </code>
+ </color>
+ <color>
+ <nameSvg>Purple</nameSvg>
+ <code>
+ <cmyk>#00FF007F</cmyk>
+ </code>
+ </color>
+</colors>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colors [
+ <!ELEMENT colors (color*)>
+ <!ELEMENT color (nameSvg, code)>
+ <!ELEMENT nameSvg (#PCDATA)>
+ <!ELEMENT code (rgb | cmyk)>
+ <!ELEMENT rgb (#PCDATA)>
+ <!ELEMENT cmyk (#PCDATA)>
+]>
+<colors>
+ <color>
+ <nameSvg>Purple</nameSvg>
+ <code>
+ <rgb>#800080</rgb>
+ </code>
+ </color>
+ <color>
+ <nameSvg>Purple</nameSvg>
+ <code>
+ <cmyk>#00FF007F</cmyk>
+ </code>
+ </color>
+</colors>

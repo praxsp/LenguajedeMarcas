@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE numbers [
+ <!ELEMENT numbers (#PCDATA)>
+]>
+<numbers>
+ <number>25</number>
+</numbers>
+
+
+
+<!DOCTYPE numbers [
+ <!ELEMENT numbers (number)>
+ <!ELEMENT number (#PCDATA)>
+]>
+
+<numbers>
+ <number>25</number>
+</numbers>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE letters [
+ <!ELEMENT letters (letter)>
+ <!ELEMENT letter (#PCDATA)>
+]>
+<letters>
+ <letter>m</letter>
+ <letter>e</letter>
+</letters>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE letters [
+ <!ELEMENT letters (letter)>
+ <!ELEMENT letter (#PCDATA)>
+]>
+<letters>
+ <letter>m</letter>
+</letters>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colors [
+ <!ELEMENT colors (color*)>
+ <!ELEMENT color (#PCDATA)>
+]>
+<colors>
+ <color>dark blue</color>
+ black
+ <color>yellow</color>
+</colors>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colors [
+ <!ELEMENT colors (color*)>
+ <!ELEMENT color (#PCDATA)>
+]>
+<colors>
+ <color>dark blue</color>
+ <color>yellow</color>
+</colors>
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flowers [
+ <!ELEMENT flowers (flower+)>
+ <!ELEMENT flower (#PCDATA)>
+]>
+<flowers>
+</flowers>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flowers [
+ <!ELEMENT flowers (flower+)>
+ <!ELEMENT flower (#PCDATA)>
+]>
+<flowers>
+    <flower></flower>
+</flowers>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animals [
+<!ELEMENT animals (animal*)>
+ <!ELEMENT animal (#PCDATA)>
+]>
+<animals>
+ <dog>Poodle</dog>
+ <cat>Siamese</cat>
+</animals>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animals [
+<!ELEMENT animals (animal*)>
+ <!ELEMENT animal (#PCDATA)>
+]>
+<animals>
+    <animal>Poodle</animal>
+    <animal>Siamese</animal>
+</animals>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE writers [
+ <!ELEMENT writers (writer*)>
+ <!ELEMENT writer (name, birth)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT birth (#PCDATA)>
+]>
+<writers>
+ <writer>
+ <name>Mario Vargas Llosa</name>
+ <birth>March 28th 1936</birth>
+ </writer>
+ <writer>
+ <birth>April 1st 1929</birth>
+ <name>Milan Kunfromra</name>
+ </writer>
+</writers>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE writers [
+ <!ELEMENT writers (writer*)>
+ <!ELEMENT writer (name, birth)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT birth (#PCDATA)>
+]>
+<writers>
+ <writer>
+ <name>Mario Vargas Llosa</name>
+ <birth>March 28th 1936</birth>
+ </writer>
+ <writer>
+ <name>Milan Kunfromra</name>
+ <birth>April 1st 1929</birth>
+ </writer>
+</writers>
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musicians [
+ <!ELEMENT musicians (musician*)>
+ <!ELEMENT musician ((name | alias), birthDate)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT alias (#PCDATA)>
+ <!ELEMENT birthDate (#PCDATA)>
+]>
+<musicians>
+ <musician>
+ <name>Antonio Vivaldi</name>
+ <alias>The Orange Prist</alias>
+ <birthDate>March 4th 1678</birthDate>
+ </musician>
+ <musician>
+ <name>Johann Sebastian Bach</name>
+ <alias>The Old Bald</alias>
+ <birthDate>March 21st 1685</birthDate>
+ </musician>
+</musicians>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musicians [
+ <!ELEMENT musicians (musician*)>
+ <!ELEMENT musician ((name | alias), birthDate)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT alias (#PCDATA)>
+ <!ELEMENT birthDate (#PCDATA)>
+]>
+<musicians>
+ <musician>
+ <name>Antonio Vivaldi</name>
+ <birthDate>March 4th 1678</birthDate>
+ </musician>
+ <musician>
+ <alias>The Old Bald</alias>
+ <birthDate>March 21st 1685</birthDate>
+ </musician>
+</musicians>
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+ <!ELEMENT agenda (contact*)>
+ <!ELEMENT contact (name, landPhone*, mobilePhone+)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT landPhone (#PCDATA)>
+ <!ELEMENT mobilePhone (#PCDATA)>
+]>
+<agenda>
+ <contact>
+ <name>Townhall</name>
+ <landPhone>010</landPhone>
+ </contact>
+ <contact>
+ <name>Emergency</name>
+ <landPhone>112 (European Union)</landPhone>
+ <mobilePhone>Unknown</mobilePhone>
+ <landPhone>911 (USA)</landPhone>
+ </contact>
+</agenda>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+ <!ELEMENT agenda (contact*)>
+ <!ELEMENT contact (name, landPhone*, mobilePhone+)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT landPhone (#PCDATA)>
+ <!ELEMENT mobilePhone (#PCDATA)>
+]>
+<agenda>
+ <contact>
+ <name>Townhall</name>
+ <landPhone>010</landPhone>
+ <mobilePhone>Unknown</mobilePhone>
+ </contact>
+ <contact>
+ <name>Emergency</name>
+ <landPhone>112 (European Union)</landPhone>
+ <landPhone>911 (USA)</landPhone>
+ <mobilePhone>Unknown</mobilePhone>
+ </contact>
+</agenda>
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE solarSystem [
+ <!ELEMENT solarSystem (body*)>
+ <!ELEMENT body (planet|satellite|asteroid)>
+ <!ELEMENT planet (#PCDATA)>
+ <!ELEMENT satellite (#PCDATA)>
+ <!ELEMENT asteroid (#PCDATA)>
+]>
+<solarSystem>
+ <body>
+ <planet>Earth</planet>
+ <satellite>Moon</satellite>
+ </body>
+ <asteroid>Ceres</asteroid>
+</solarSystem>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE solarSystem [
+ <!ELEMENT solarSystem (body*)>
+ <!ELEMENT body (planet|satellite|asteroid)>
+ <!ELEMENT planet (#PCDATA)>
+ <!ELEMENT satellite (#PCDATA)>
+ <!ELEMENT asteroid (#PCDATA)>
+]>
+<solarSystem>
+ <body>
+ <planet>Earth</planet>
+ </body>
+ <body>
+ <asteroid>Ceres</asteroid>
+ </body>
+</solarSystem>
