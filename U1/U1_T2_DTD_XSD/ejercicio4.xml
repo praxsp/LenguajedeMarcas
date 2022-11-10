@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<shiporder
+<shiporder orderid="12"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="ejercicio4.xsd">
     <orderperson>string</orderperson>
       <shipto>
-        <name>string</name>
-        <address>string</address>
-        <city>string</city>
-        <country>string</country>
+        <name>12083</name>
+        <address>14263</address>
+        <city>Sevilla</city>
+        <country>Españita</country>
       </shipto>
       <item>
-        <title>string</title>
-        <note>string</note>
+        <title>tti</title>
+        <note>takities</note>
         <quantity>5508</quantity>
-        <price>-1959019.7650942</price>
+        <price>-1919.65042</price>
       </item>
-    </shiporder>
+      <item>
+        <title>serty</title>
+        <note>xdrty</note>
+        <quantity>5508</quantity>
+        <price>-19519.75042</price>
+      </item>
+</shiporder>
