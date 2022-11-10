@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro>
+<libro catalogo="1">
+    <Titulo>Por un mañana mejor</Titulo>
+    <Seccion>2</Seccion>
+    <SubSeccion>3</SubSeccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <tema>2</tema>
+            <tema>3</tema>
+        </Capitulo>
+        <Separacion/>
+        <Capitulo materia="XHTML">
+            <tema>1</tema>
+            <tema>2</tema>
+        </Capitulo>
+    </Contenido>
+    <Copyright>376589</Copyright>
+</libro>
