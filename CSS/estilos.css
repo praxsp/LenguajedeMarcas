@@ -1,0 +1,44 @@
+p{
+    color:blue;
+    font-size: large;
+    border: 2px solid;
+    padding: 12px;
+    margin: 0px;
+
+}
+h1{
+    color:yellow;
+    border: 2px dashed red;
+}
+
+table, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+thead td{
+    background-color: aquamarine;
+}
+
+p+h2{
+    color:black;    /*lo que vaya justo despeus del p en este caso h2 */
+}
+
+h2+h2{
+    color: red; /*justo lo que va luego*/
+}
+
+h2~h3{               /*todo lo que va despues*/
+    color:red;
+}
+
+
+
+/*  *pone los elementos a todos el, * antes de la priemra sentencia */
+#parrafo1 { color:brown}      /*id*/
+.parrafo2 { color: blue}     /* class*/
+
+
+/* 2 tipos de bordes el punteado dotted, dashed es como cuadraditos */
+
+/* utilizar em para darle una fuente 16px */
