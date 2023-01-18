@@ -1,0 +1,52 @@
+thead th::first-letter {
+    font-size: 2em;
+}
+
+tbody th:first-child {
+
+background-color: green;
+}
+
+table {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    border-spacing: 0px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+[colspan="6"] {
+    background-color: yellow;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color:red;
+}
+a{
+    text-decoration: none;
+}
+
+thead th:last-of-type:hover {
+font-size: 4em;
+}
+
+input {
+  border:solid red 1px;
+  padding:5px;
+  margin:5px;
+}
+label::after{
+    content:"*";
+    color:red;
+}
