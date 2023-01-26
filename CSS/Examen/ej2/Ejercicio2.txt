@@ -1,0 +1,8 @@
+Se ven diferentes los 5 ultimos parrafos porque hemos utilizado los siguientes elementos:
+p.verse {color:maroon; margin-left: 60px}
+
+Le hemos dado una clase en concreto a los dos primeros parrafos es por ello que solo se modifican esos 2
+y son diferentes a los demas.
+En concreto le hemos dado color marron y le hemos añadido un margen a la izquierda de 60px.
+
+En el html ponemos class="verse" y en css .verse y previamente lo que queremos modificar, en este caso p.

@@ -1,0 +1,37 @@
+Elementos
+
+body {background-color: tan}
+ Este elemento lo que hace es cambiar el fondo.En este caso cambia el fondo del Body (cuerpo) a un color marron 
+ clarito.
+
+ h1 {color:maroon; font-size:20pt}
+ Este elemento cambia de color la letra, con color: y font-size cambia el tamaño de la fuente.
+En este caso se ve como cambia el titulo (<h1>Jabberwocky</h1>) lo pone marron y la letra mas grande.
+
+hr {color:navy}
+Este elemento, al igual que antes, sirve para cambiar de color (color:). 
+Cambia el color de la linea horizontal.
+
+p {font-size:12pt; margin-left: 15px}
+Aqui utilizamos un nuevo elemento, que es el margin, que es el margen.
+En este caso tiene margen a la izq, se puede ver como el poema el parrafo tiene un margen a la izq.
+
+p.verse {color:maroon; margin-left: 60px}
+Tenemos otro elemento, el elemento class. se pone en el html class="xxxx" y en el css .xxxx 
+Esto no permite modificar partes en concreto, donde pongamos ese elemento.
+Tambien podemos observar como se vuelvo a poner un margen esta vez mas grande y se ve en el poema 
+aplicado.
+
+a:link     {color:green}
+a:visited  {color:yellow}
+a:hover    {color:black}
+a:active   {color:blue}
+
+a:link sirve para poner un color al link, en este caso el verde.
+
+a:visited cambia el color del link una vez visitado.
+
+a:hover este elemento sirve para interactuar con la zona seleccionada,
+en este caso cuando paamos por enciam el ratón se pone de color ngro el link.
+
+a:active sirve para activar un elemento.En este caso el link.
