@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+.menu{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    width: 5%;
+    
+}
+nav{
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+.menu:hover{
+    background-color: rgb(83, 83, 83);
+}
+
+ul a li p{
+    color: white;
+}
+.buscador{
+    float: right;
+}
+main img {
+    background-image: ;
+    width: 100%;
+}
+div div h1 span{
+    color: green;
+}
+.head1{
+    display: inline-block;
+}
+h1{
+    float: left;
+}
+.img1{
+    margin-left: 900px;
+    list-style-type: none;
+}
+.img2{
+    margin-left: 900px;
+    list-style-type: none;
+    position: relative;
+    bottom: 70px;
+    left: 200px;
+}
+.head2{
+    padding-top: 0px;
+}
+.texto{
+    float:left;
+    border-radius: 8px;
+    width: 300px;
+    margin-left: 8%;
+    position: relative;
+    bottom: 260px;
+    left: 25px;
+
+}
+.caption{
+    background-color: rgb(167, 167, 167);
+    width: 400px;
+    padding: 20px 20px 10px 10px;
+    color: white;
+    position: relative;
+    bottom: 250px;
+    left: 50px;
+    opacity: 0.8;
+}
+.flecha1{
+    background-color: rgb(167, 167, 167);
+    width:30px ;
+    position: relative;
+    bottom: 300px;
+    left: 900px;
+    padding: 1px;
+    opacity: 0.8;
+}
+.flecha2{
+    background-color: rgb(167, 167, 167);
+    width:30px ;
+    position: relative;
+    bottom: 352px;
+    left: 870px;
+    opacity: 0.8;
+    padding: 1px;
+}
+input{
+    position: relative;
+    bottom: 65px;
+}
+form img{
+    position: relative;
+    bottom: 65px;
+    right: 5px;
+}
+
