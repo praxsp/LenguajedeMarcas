@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #d7ca95;
+    margin: 0px;
+
+}
+
+.Buscador{
+text-align: right;
+padding: 10px;
+
+
+}
+input{
+    background-color: black;
+    border-radius: 10px;
+    width:25%;
+    height:30px;
+    padding-left: 20px;
+}
+::placeholder{
+    color: rgb(7, 100, 69);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+.navM{
+    width: 40%;
+    display: flex;
+    color: rgb(7, 100, 69);
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: right;
+}
+.navM p{
+    padding: 2.8rem 2rem;
+    margin: 0;
+}
+
+
+/* he quitado display in line block tanto en navM como en navM1 */
+
+.navM1{
+    width: 30%;
+    color: rgb(7, 100, 69);
+    margin-left:6% ;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 32px;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navM1 p{
+    font-weight: 800;
+    font-size: 10px;
+    padding-left: 60px;
+    margin-top: 0px;
+
+}
+.navM p:hover{
+    background-color: rgb(41, 37, 37);
+}
+/* He puesto en el menu display flex , para utilizarlo con l oque hay dentro del menu, y flex direction row para que me lo organice en
+consecutivo el contenido de dentro */
+
+.menu{
+    background-color: rgb(32, 13, 13);
+    border-top: solid orange 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* he utilizado en el contenedor display flex para que se lo aplique al contenido del contenedor que son 3 y despues dflex-wrap para que 
+me los organice, es decir van uno tras otro, pero si no cabe va hacia abajo */
+
+.container-container{
+    margin-left: 60px;
+    background: url(circulos1.png) no-repeat right top ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 330px 330px;
+}
+.cc1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-top: 20px;
+    height: 40%;
+    width: 100%;
+    margin-bottom: 100px;
+    
+}
+.cc12{
+    display: flex;
+    justify-content:left;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 28px;
+    font-style: oblique;
+    font-family: "Lucida handwriting";
+   
+}
+.p2{
+    width: 500px;
+    padding-right: 70px;
+    margin-left: 40px;
+}
+.img1{
+    width: 150px;
+}
+
+/* para este contenedor he utilizado grid, para dividirlo en dos partes he utilizadop grid template colums, he puesto
+2 fr 1 fr , 2 fr ya que el formualrio es de mayor tamaño*/ 
+
+.cc2{
+
+   grid-row: 2 / 3; 
+   /* display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: ; */
+}
+.cc21{
+    background-color: #2a231d;
+    width: 80%;
+    padding: 0px 15px 0px 15px;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+     
+}
+.cc23{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: 300px;
+    margin-right: 100px;
+    margin-left: 50px;
+    align-self: end;
+  
+   
+}
+.cc233{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 38px;
+    color:#d66b03 ;
+    
+}
+span{
+    color: #ee8224;
+}
+button{
+    margin-top: 4%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+    background-color: #e98428;
+    border: 0px;
+    width: 45%;
+    height:19% ;
+    text-align: left;
+    padding-left: 15px
+    
+}
+.cards{
+    margin: 5%;
+    font-size: 20px;
+    color:#c9712e ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.cards p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    border-radius: 2px;
+    height: 7px;
+    background-color:rgb(66, 66, 66);
+    border-width: 0px;
+    width: 100%;
+}
+h2{
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
