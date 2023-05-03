@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.MenuDerecha{
+    width: 40%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: right;
+}
+.MenuDerecha p{
+    padding: 2.8rem 2rem;
+    margin: 0;
+}
+
+.MenuIzq{
+    width: 30%;
+    color: rgb(50, 248, 255);
+    margin-left:6% ;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 32px;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.MenuIzq p{
+    font-weight: 800;
+    font-size: 10px;
+    padding-left: 60px;
+    margin-top: 0px;
+
+}
+.MenuDerecha p:hover{
+    background-color: rgb(41, 37, 37);
+}
+
+span{
+    color: #000000;
+}
+img{
+    width: 50%;
+    margin: 0;
+}
+
+.container-container{
+background-color: rgb(224, 224, 224);
+    text-align:center;
+    width: 95%;
+    height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 1%;
+    display: flex;
+    margin-left: 30px;
+}
+
+.Barra1{background-color: orange ; height: 95%; width: 5%;border-radius: 7px; display: flex; flex-direction: column; flex-wrap: wrap;justify-content: space-evenly;}
+.Barra2{background-color: rgb(243, 191, 96); height: 95%; width: 5%;border-radius: 7px; display: flex; flex-direction: column; flex-wrap: wrap;justify-content: space-evenly;}
+.Barra3{background-color: yellow; height: 95%; width: 5%;border-radius: 7px; display: flex; flex-direction: column; flex-wrap: wrap;justify-content: space-evenly;}
+.Barra4{background-color: greenyellow; height: 95%; width: 5%;border-radius: 7px; display: flex; flex-direction: column; flex-wrap: wrap;justify-content: space-evenly;}
+.Barra5{background-color: green; height: 95%; width: 5%;border-radius: 7px; display: flex;flex-direction: column; flex-wrap: wrap;justify-content: space-evenly;}
+
+.container-container p:last-child{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.container-container p:first-child {
+    transform: rotate(-90deg);   
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+
+}
+
+.Barra{
+    height: 95%;
+    margin: 10px;
+    flex-grow: 2;
+}
+
+.Barra img{
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    align-content: center;
+}
+
+.Barra p{
+    
+    width: 80%;
+}
+
+ 
+.Foot{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.Foot1{
+    background-color: rgb(230, 230, 230);
+    border-radius: 5%;
+    width: 22%;
+    padding: 2%;
+    margin-left: 2%;
+    text-align: center;
+}
+.Foot2{
+    background-color: rgb(230, 230, 230);
+    border-radius: 5%;
+    width: 22%;
+    padding: 2%;
+    text-align: center;
+}
+.Foot3{
+    background-color: rgb(230, 230, 230);
+    border-radius: 5%;
+    width: 22%;
+    padding: 2%;
+    text-align: center;
+}
+.Foot4{
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5%;
+    width: 22%;
+    padding: 2%;
+    margin-right: 4%;
+    text-align: center;
+}
+hr{
+    color:rgb(59, 59, 59) ;
+    border-radius: 2px;
+    height: 7px;
+    background-color:rgb(59, 59, 59);
+    border-width: 0px;
+}
+h2{
+    font-size: 1vw;
+}
+hr+p{
+    font-size: 1vw;
+}
+
+
+@media screen and (max-width: 600px){
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.MenuIzq{
+    width: 100%;
+}
+.MenuDerecha {
+    width: 100%;
+    
+}
+.MenuDerecha p{
+    padding: 20px;
+}
+
+.container-container{
+    flex-wrap: wrap;
+    background-image: url(img/zoropng.png);
+    background-size: cover;
+}
+.Barra1{background-color: orange ; height: 17%; width: 95%;border-radius: 7px; display: flex; flex-direction: column; flex-wrap: wrap;justify-content: space-evenly;}
+.Barra2{background-color: rgb(243, 191, 96); height: 17%; width: 95%;border-radius: 7px; display: flex; flex-direction: column; flex-wrap: wrap;justify-content: space-evenly;}
+.Barra3{background-color: yellow; height: 17%; width: 95%;border-radius: 7px; display: flex; flex-direction: column; flex-wrap: wrap;justify-content: space-evenly;}
+.Barra4{background-color: greenyellow; height: 17%; width: 95%;border-radius: 7px; display: flex; flex-direction: column; flex-wrap: wrap;justify-content: space-evenly;}
+.Barra5{background-color: green; height: 17%; width: 95%;border-radius: 7px; display: flex;flex-direction: column; flex-wrap: wrap;justify-content: space-evenly;}
+
+.Barra{
+    display: none;
+}
+.container-container p:first-child {
+    transform: rotate(0);   
+    font-size: 3.2vw;
+}
+h2{
+    font-size: 2.2vw;
+}
+hr+p{
+    font-size: 2.2vw;
+}
+.Foot{
+    margin-left: 15px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 992px){
+    .MenuDerecha{
+        font-size: 150%;
+    }
+    
+    .MenuIzq{
+        font-size: 180%; 
+    }
+    h2{
+        font-size: 1.8vw;
+    }
+    hr+p{
+        font-size: 1.8vw;
+    }
+    .container-container{
+        height: 400px;
+    }
+    
+    
+}
