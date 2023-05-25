@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+header nav ul{
+    color: white;
+    display: none;
+}
+header img{
+    width: 10%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+header i{
+    color: white;
+}
+.preferencia1 {
+    order: 2;
+   }
+.preferencia2 {
+    order: 1;
+}
+
+
+main section:first-of-type {
+    padding: 10px;
+}
+.S1{
+    background-color:rgb(37, 37, 37) ;
+    color: white;
+    font-size: 3.2vw;
+    text-decoration: center;
+}
+.verde{
+    background-color: green;
+    padding: 12px;
+    border-radius: 11px;
+    color: white;
+    margin-bottom: 20px;
+}
+.entrar form input,label{
+    display: none;
+}
+.entrar form p:last-child{
+    display: none;
+}
+
+h1{
+    text-align: center;
+    margin: 15px;
+}
+
+h1 + p{
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+    width: 80%;
+    
+    
+
+}
+
+
+h3 + p{
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+h3{
+    text-align: center;
+    margin: 15px;
+}
+
+.imagen{
+    width: 80px;
+    margin-left: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main+section a{
+    text-decoration: none;
+    border: solid 1px blue ;  
+    padding: 14px;  
+    border-radius: 5%;
+   
+}
+
+
+
+@media screen and (min-width:577px){
+
+    .entrar form input,label{
+        display: block;
+    }
+    .entrar form p:last-child{
+        display: block;
+    }
+    form label{
+        text-align: left;
+        font-weight: bold;
+
+    }
+    form{
+        flex-wrap: wrap;
+        background-color: white;
+        color: black;
+        padding: 5%;
+    }
+    .entrar .form{
+        background-color: rgb(43, 43, 43);
+    }
+
+}
+
+
+
+@media screen and (min-width:900px){
+}
